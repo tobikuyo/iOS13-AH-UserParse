@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C92555F23CFF11D0008825D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92555E23CFF11D0008825D /* User.swift */; };
+		2C92556123CFF3640008825D /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C92556023CFF3640008825D /* APIController.swift */; };
+		456DA1F223CFEF1200363BD9 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1F123CFEF1200363BD9 /* UsersTableViewController.swift */; };
+		456DA1F423CFEF2800363BD9 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456DA1F323CFEF2800363BD9 /* UserDetailViewController.swift */; };
 		45942FE623CE2EAC009EE10F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45942FE523CE2EAC009EE10F /* AppDelegate.swift */; };
 		45942FE823CE2EAC009EE10F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45942FE723CE2EAC009EE10F /* SceneDelegate.swift */; };
 		45942FED23CE2EAC009EE10F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45942FEB23CE2EAC009EE10F /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C92555E23CFF11D0008825D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2C92556023CFF3640008825D /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
+		456DA1F123CFEF1200363BD9 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		456DA1F323CFEF2800363BD9 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 		45942FE223CE2EAC009EE10F /* User-Parse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User-Parse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45942FE523CE2EAC009EE10F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45942FE723CE2EAC009EE10F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +78,8 @@
 		45942FF923CE2ED4009EE10F /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				456DA1F123CFEF1200363BD9 /* UsersTableViewController.swift */,
+				456DA1F323CFEF2800363BD9 /* UserDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -77,6 +87,7 @@
 		45942FFA23CE2EDE009EE10F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2C92555E23CFF11D0008825D /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -84,6 +95,7 @@
 		45942FFB23CE2EE6009EE10F /* Model Controller  */ = {
 			isa = PBXGroup;
 			children = (
+				2C92556023CFF3640008825D /* APIController.swift */,
 			);
 			path = "Model Controller ";
 			sourceTree = "<group>";
@@ -161,6 +173,10 @@
 			files = (
 				45942FE623CE2EAC009EE10F /* AppDelegate.swift in Sources */,
 				45942FE823CE2EAC009EE10F /* SceneDelegate.swift in Sources */,
+				2C92556123CFF3640008825D /* APIController.swift in Sources */,
+				456DA1F423CFEF2800363BD9 /* UserDetailViewController.swift in Sources */,
+				2C92555F23CFF11D0008825D /* User.swift in Sources */,
+				456DA1F223CFEF1200363BD9 /* UsersTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
